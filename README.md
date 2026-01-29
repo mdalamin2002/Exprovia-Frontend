@@ -96,3 +96,4 @@ VITE_API_URL=http://localhost:5000/api
 // Category management UI
 // Review moderation UI
 // User management UI
+// Admin analytics dashboard
