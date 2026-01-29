@@ -95,3 +95,4 @@ VITE_API_URL=http://localhost:5000/api
 // Recipe management UI
 // Category management UI
 // Review moderation UI
+// User management UI
