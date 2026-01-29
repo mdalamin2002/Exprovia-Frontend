@@ -98,3 +98,4 @@ VITE_API_URL=http://localhost:5000/api
 // User management UI
 // Admin analytics dashboard
 // Form validation improvements
+// Responsive design enhancements
