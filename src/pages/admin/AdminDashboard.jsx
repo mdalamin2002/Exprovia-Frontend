@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
+import AdminSidebar from '../../components/admin/AdminSidebar';
 import { recipeAPI } from '../../services/api';
-import AdminSidebar from '../components/admin/AdminSidebar';
 
 const AdminDashboard = () => {
   const [stats, setStats] = useState({

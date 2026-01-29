@@ -5,6 +5,7 @@ import AdminDashboard from './pages/admin/AdminDashboard';
 import CategoryManagement from './pages/admin/CategoryManagement';
 import RecipeManagement from './pages/admin/RecipeManagement';
 import ReviewManagement from './pages/admin/ReviewManagement';
+import UserManagement from './pages/admin/UserManagement';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
 import MealPlanner from './pages/MealPlanner';
