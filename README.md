@@ -92,3 +92,4 @@ VITE_API_URL=http://localhost:5000/api
 - Axios
 - Vite
 // Admin dashboard styling
+// Recipe management UI
