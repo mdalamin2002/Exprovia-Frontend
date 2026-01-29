@@ -91,3 +91,4 @@ VITE_API_URL=http://localhost:5000/api
 - Tailwind CSS 3
 - Axios
 - Vite
+// Admin dashboard styling
