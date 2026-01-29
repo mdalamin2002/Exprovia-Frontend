@@ -95,4 +95,13 @@ export const groceryListAPI = {
   removeItem: (week, itemId) => api.delete(`/grocery-lists/${week}/items/${itemId}`),
 };
 
+// User API
+export const userAPI = {
+  getAll: () => api.get('/users'),
+  getById: (id) => api.get(`/users/${id}`),
+  updateRole: (id, roleData) => api.put(`/users/${id}/role`, roleData),
+  delete: (id) => api.delete(`/users/${id}`),
+  getStats: () => api.get('/users/stats'),
+};
+
 export default api;

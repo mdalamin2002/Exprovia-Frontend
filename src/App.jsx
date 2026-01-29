@@ -1,7 +1,10 @@
 import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import AdminDashboard from './components/dashboard/AdminDashboard';
 import UserDashboard from './components/dashboard/UserDashboard';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import AdminDashboard from './pages/admin/AdminDashboard';
+import CategoryManagement from './pages/admin/CategoryManagement';
+import RecipeManagement from './pages/admin/RecipeManagement';
+import ReviewManagement from './pages/admin/ReviewManagement';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
 import MealPlanner from './pages/MealPlanner';
@@ -114,6 +117,38 @@ const AppContent = () => {
           element={
             <ProtectedRoute adminOnly>
               <AdminDashboard />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/admin/recipes" 
+          element={
+            <ProtectedRoute adminOnly>
+              <RecipeManagement />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/admin/categories" 
+          element={
+            <ProtectedRoute adminOnly>
+              <CategoryManagement />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/admin/reviews" 
+          element={
+            <ProtectedRoute adminOnly>
+              <ReviewManagement />
+            </ProtectedRoute>
+          } 
+        />
+        <Route 
+          path="/admin/users" 
+          element={
+            <ProtectedRoute adminOnly>
+              <UserManagement />
             </ProtectedRoute>
           } 
         />
